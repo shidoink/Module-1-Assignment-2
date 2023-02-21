@@ -1,0 +1,140 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    grid-template-rows: 650px 50px 100px;
+}
+.grid-item-2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    flex:auto;
+    margin: 5px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border:1px;
+    border-style: solid;
+    display:flex;
+    flex-direction: column;
+    width:100%
+
+}
+.signin{
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px;
+}
+.usernamelabel{
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+.usernametext{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: grey;
+    height:35px;
+
+}
+.passwordcontainer{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px
+}
+.passwordlabel{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    
+}
+.forgotpassword{
+    text-align: end;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+}
+.passwordtext{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: grey;
+    height:35px;
+}
+.submitbutton{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    height:35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color:#f7c548
+    
+}
+
+
+.needhelp{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.newtoamazon{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: gray;
+    position: relative;
+    max-width: 500px;
+    text-align: center;
+
+}
+.newtoamazon:before{
+    content:'';
+    height: 2px;
+    border-bottom: 1px solid;
+    position: absolute;
+    display:block;
+    width: 150px;
+    left: 180px;
+    top:50%;
+}
+.newtoamazon:after{
+    content:'';
+    height: 2px;
+    border-bottom: 1px solid;
+    position: absolute;
+    display:block;
+    width: 150px;
+    right: 180px;
+    top:50%;
+}
+.createnewaccount{
+    width:97%;
+    height: 40px;
+    margin-bottom: 60px;
+}
+.grid-item-4{
+    grid-column-start: 1;
+    grid-column-end:4;
+}
+
+.grid-item-6{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.firstrow{
+    width:500px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px
+}
+.botbuts{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.copyright{
+    font-family: 'Open Sans', sans-serif;
+}
